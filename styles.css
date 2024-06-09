@@ -3,72 +3,66 @@
 }
 
 .btn {
-  background-color: #659b73; /* Change this to your desired active background color */
+  background-color: #659b73;
   color: white;
 }
 
 .btn:hover {
-  background-color: #333; /* Change this to your desired active background color */
+  background-color: #333;
   color: white;
 }
 
-/* Add spacing to the entire form */
-/* Add spacing to the entire form */
 form.row.g-3 {
-  margin-top: 20px; /* Space above the form */
-  margin-bottom: 20px; /* Space below the form */
-  padding-left: 15px; /* Padding on the left side */
-  padding-right: 15px; /* Padding on the right side */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-/* Add spacing between form elements */
 form.row.g-3 .col-md-6,
 form.row.g-3 .col-12,
 form.row.g-3 .col-md-4,
 form.row.g-3 .col-md-2,
 form.row.g-3 .form-check {
-  margin-bottom: 20px; /* Space between form elements */
+  margin-bottom: 20px;
 }
 
-/* Optional: Add spacing above the submit button */
 form.row.g-3 .btn-primary {
-  margin-top: 20px; /* Space above the submit button */
+  margin-top: 20px;
 }
 
 .form-control,
 .form-select {
-  color: #333; /* Text color */
-  background-color: #93ae9c; /* Background color */
+  color: #333;
+  background-color: #93ae9c;
 }
 
 .nav-pills .nav-link.active {
-  background-color: #659b73; /* Change this to your desired active background color */
-  color: white; /* Change this to your desired active text color */
+  background-color: #659b73;
+  color: white;
 }
 
-/* Change the background and text color of inactive pills */
 .nav-pills .nav-link {
-  color: #d6ddd6; /* Change this to your desired inactive text color */
+  color: #d6ddd6;
   padding: 5px 5px;
-  margin-left: 5px; /* Add left margin */
-  margin-right: 5px; /* Add right margin */
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-/* Optional: Change the hover effect */
 .nav-pills .nav-link:hover {
-  background-color: #659b73; /* Change this to your desired hover background color */
-  color: white; /* Change this to your desired hover text color */
+  background-color: #659b73;
+  color: white;
 }
 
 .title {
-  font-size: 2.5em; /* Adjust the font size */
-  font-weight: bold; /* Adjust the font weight */
-  color: #fbf6f6; /* Adjust the text color */
-  margin-bottom: 20px; /* Adjust the space below the title */
-  text-align: center; /* Center the text */
-  padding-top: 30px; /* Increase padding on the top */
-  padding-bottom: 20px; /* Increase padding on the bottom */
   font-family: Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fbf6f6;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .titleDiv {
@@ -77,23 +71,23 @@ form.row.g-3 .btn-primary {
 }
 
 .subtitle {
-  font-size: 1.5em; /* Adjust the size as needed */
-  color: #333; /* Change to your preferred color */
-  text-align: center; /* Center the text */
-  margin-top: 20px; /* Space above the subtitle */
-  margin-bottom: 20px; /* Space below the subtitle */
-  font-weight: normal; /* Adjust weight to make it look more like a subtitle */
-  font-family: "Arial", sans-serif; /* Change to your preferred font */
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-family: "Arial", sans-serif;
 }
 
 h5 {
-  font-size: 1.2em; /* Adjust the font size */
-  font-weight: 300; /* Make the text thinner */
-  color: #333; /* Set the text color */
-  margin-bottom: 15px; /* Add space below the heading */
-  text-align: center; /* Center align the text */
-  line-height: 1.4; /* Improve readability */
-  font-family: "Verdana", sans-serif; /* Set a basic, elegant font */
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "Verdana", sans-serif;
 }
 
 .card {
@@ -108,19 +102,18 @@ h5 {
 }
 
 .image-container {
-  display: flex; /* Use flexbox layout */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container img {
-  /* Optional: Limit the maximum width and height of the image */
   max-width: 100%;
   max-height: 100%;
 }
 
 .icon-wrapper {
-  text-align: center; /* Center the text horizontally */
+  text-align: center;
 }
 
 .icon-container {
@@ -131,12 +124,12 @@ h5 {
 }
 
 .icon {
-  width: 20px; /* Adjust the width of the icons */
-  height: 20px; /* Adjust the height of the icons */
-  margin-right: 8px; /* Space between icon and text */
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 .icon-text {
-  font-size: 1em; /* Adjust the size of the text */
-  color: #333; /* Set the color of the text */
+  font-size: 1em;
+  color: #333;
 }
